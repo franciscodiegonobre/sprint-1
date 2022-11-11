@@ -1,0 +1,120 @@
+.body {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container-1 {
+    background: #000000;
+    height: auto;
+    margin: 15px;
+    padding: 5px;
+    flex-direction: column;
+}
+
+.container-2, .container-3 {
+    background: #000000;
+    height: auto;
+    margin: 15px;
+    padding: 5px;
+    display: flex;
+}
+
+
+.row-1, .row-2 {
+    height: auto;
+    margin: 10px;
+    flex: auto;
+    display: flex;
+}
+
+.column-1 {
+    margin: 10px;
+    flex: 70;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column-2 {
+    margin: 10px;
+    flex: 30;
+}
+
+.item-1 {
+    height: 20px;
+    margin: 10px;
+    align-self: center;
+    flex-basis: 100%;
+    flex: 20;
+}
+
+.item-2 {
+    height: 20px;
+    margin: 10px;
+    align-self: center;
+    flex-basis: 100%;
+    flex: 60;
+}
+
+.item-3 {
+    height: 20px;
+    margin: 10px;
+    flex-basis: 40%;
+    flex-grow: 1;
+    align-self: center 
+}
+
+.item-4 {
+    height: 20px;
+    margin: 10px;
+    flex-basis: 100%;
+}
+
+
+.bg-grey {
+    background: #585853;
+}
+
+.bg-orange {
+    background: #ff9500;
+}
+
+.bg-pink {
+    background: #ff006a;
+}
+
+.bg-yellow {
+    background: #f6ff00; 
+}
+
+.bg-dark-blue {
+    background: #182fa1; 
+}
+
+.bg-light-blue {
+    background: #8293e6; 
+}
+
+/* 
+@media (max-width: 768px) {
+    .container-2 {
+        background: #f6ff00;
+        flex-direction: column;
+    }    
+}
+
+@media (max-width: 390px) {
+    
+    .row-1, .row-2 {
+        display: block;
+        padding: 4px;
+    }
+
+    .column-1 {
+        display: block;
+        padding: 4px;
+    }
+
+    .column-2 {
+        background: #ff9500;
+    }
+} */

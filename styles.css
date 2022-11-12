@@ -102,7 +102,7 @@
     }  
 }
 
-/* @media (max-width: 390px) {
+@media (max-width: 390px) {
     
     .row-1, .row-2 {
         display: block;
@@ -117,4 +117,4 @@
     .column-2 {
         background: #ff9500;
     }
-} */
+}

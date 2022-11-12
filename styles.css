@@ -94,15 +94,15 @@
     background: #8293e6; 
 }
 
-/* 
+
 @media (max-width: 768px) {
     .container-2 {
         background: #f6ff00;
         flex-direction: column;
-    }    
+    }  
 }
 
-@media (max-width: 390px) {
+/* @media (max-width: 390px) {
     
     .row-1, .row-2 {
         display: block;
